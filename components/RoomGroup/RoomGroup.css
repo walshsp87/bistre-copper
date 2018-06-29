@@ -1,0 +1,30 @@
+.RoomGroup {
+  border-radius: 3px;
+  float: left;
+  margin: 0 8px;
+  width: 150px;
+}
+
+.RoomGroup-body {
+  background-color: white;
+  margin: 4px;
+  padding: 8px;
+  height: 90px;
+}
+
+.RoomGroup-body div {
+  float: left;
+  width: 50%;
+}
+
+.RoomGroup--enabled-true {
+  background-color: rgb(231, 231, 231);
+}
+
+.RoomGroup--enabled-false {
+  background-color: rgb(219, 219, 227);
+}
+
+.RoomGroup--enabled-false .RoomGroup-body {
+  background-color: rgb(219, 219, 227);
+}
